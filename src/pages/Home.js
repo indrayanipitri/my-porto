@@ -1,5 +1,7 @@
 import imgProfile from '../images/pipit.png'
 import Line from '../Line/Line'
+import About from './About'
+import Projects from './Projects'
 
 export default function Home() {
     return <>
@@ -16,6 +18,9 @@ export default function Home() {
             </div>
         </div>
     <Line/>
+    <About />
+    <Line/>
+    <Projects />
     </section>
     
     </>
