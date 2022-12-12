@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&family=Rubik+Vinyl&family=Secular+One&display=swap');
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 
 .App {
   background-color: #1E1E1E;
-  font-family: 'Hanken Grotesk', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #fff;
   height: 100vh;
 
@@ -16,18 +16,28 @@
 
 /* Navbar */
 
+
+
 .nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   background-color: #181A20;
-  padding: 20px 10%;
-  font-size: 20px;
+  font-size: 18px;
+  height: 75px;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Rubik Vinyl', cursive;
 }
 
 .nav-links {
   display: flex;
+  justify-content: flex-end;
   list-style: none;
+  width: 70%;
 }
+
 
 .about,
 .projects,
@@ -36,7 +46,8 @@
 .contact {
   color: #7BE7FF;
   text-decoration: none;
-  padding-right: 50px;
+  padding:  10px 10px;
+  margin: 0 10px;
   cursor: pointer;
 }
 
@@ -44,4 +55,57 @@
   color: white;
 }
 
+.mobile-menu {
+  display: none;
+}
 
+@media screen and (max-width: 780px) {
+  /* .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  } */
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 75px;
+    width: 100%;
+    transition: all 0.5 ease-out;
+    background-color: #181A20;
+    color: #fff;
+    height: 100vh;
+    
+  }
+
+.about,
+.projects,
+.skills,
+.resume,
+.contact {
+  color: #7BE7FF;
+  text-align: center;
+  padding:  32px;
+  width: 100%;
+  transition: all 0.5 ease-out;
+ 
+}
+
+.mobile-menu {
+  display: block;
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  font-size: 27px;
+  color: white;
+  background-color: #181A20;
+  border: none;
+}
+}
