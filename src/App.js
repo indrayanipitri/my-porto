@@ -10,15 +10,6 @@ import Navbar from './Navbar/Navbar'
 function App() {
   return (
     <div className="App">
-      {/* <nav className='nav'>
-        <Link to='/' className='nav-item'>Tentang aku</Link>
-        <Link to='/projects' className='nav-item'>Projects</Link>
-        <Link to='/tech' className='nav-item'>Tech</Link>
-        <Link to='/resume' className='nav-item'>Resume</Link>
-        <Link to='/contact' className='nav-item'>Kontak</Link>
-
-      </nav> */}
-
       <Navbar />
       <Outlet />
       <Routes>

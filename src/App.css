@@ -18,7 +18,7 @@
 
 .nav {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   background-color: #181A20;
   padding: 20px 10%;
   font-size: 20px;
@@ -29,13 +29,19 @@
   list-style: none;
 }
 
-.nav-item a {
+.about,
+.projects,
+.skills,
+.resume,
+.contact {
   color: #7BE7FF;
   text-decoration: none;
-  padding-right: 30px;
-  
+  padding-right: 50px;
+  cursor: pointer;
 }
 
-.nav-item:hover {
+.nav-links a:hover {
   color: white;
 }
+
+
