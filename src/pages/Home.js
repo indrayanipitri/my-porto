@@ -8,7 +8,7 @@ export default function Home() {
     <section className="section">
         <div className='jumbotron'>
             <div className="img-profile">
-                <img src={imgProfile} alt="" />
+                <img src={imgProfile} alt="my-photo" />
             </div>
             <div className='my-name'>
                 <h2>Frontend Developer.</h2>
