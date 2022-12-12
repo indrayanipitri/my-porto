@@ -17,17 +17,23 @@
 /* Navbar */
 
 .nav {
+  display: flex;
+  justify-content: end;
   background-color: #181A20;
   padding: 20px 10%;
-  text-align: right;
   font-size: 20px;
-  
 }
 
-.nav-item {
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item a {
   color: #7BE7FF;
   text-decoration: none;
   padding-right: 30px;
+  
 }
 
 .nav-item:hover {
