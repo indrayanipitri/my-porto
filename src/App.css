@@ -10,14 +10,11 @@
   background-color: #1E1E1E;
   font-family: 'Nunito Sans', sans-serif;
   color: #fff;
-  height: 100vh;
+  height: auto;
 
 }
 
 /* Navbar */
-
-
-
 .nav {
   display: flex;
   justify-content: space-around;
@@ -35,7 +32,7 @@
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  width: 70%;
+  width: 60%;
 }
 
 
@@ -44,7 +41,7 @@
 .skills,
 .resume,
 .contact {
-  color: #7BE7FF;
+  color: white;
   text-decoration: none;
   padding:  10px 10px;
   margin: 0 10px;
@@ -52,7 +49,7 @@
 }
 
 .nav-links a:hover {
-  color: white;
+  color: #7BE7FF;
 }
 
 .mobile-menu {
@@ -109,3 +106,62 @@
   border: none;
 }
 }
+
+/* Section */
+.section {
+  padding: 50px 80px;
+}
+
+/* Line */
+.line-1 {
+  width: 50%;
+  margin: 100px auto 40px;
+  border: 1px solid #C0DE08;
+}
+.line-2 {
+  width: 30%;
+  margin: 0 auto 50px;
+  border: 1px solid #C0DE08;
+}
+
+/* Jumbotron */
+.jumbotron {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.img-profile{
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+} 
+
+.img-profile img {
+  width: 300px;
+  border-radius: 50%;
+  border: 3px solid #C0DE08;
+}
+
+
+.jumbotron .my-name {
+ width: 40%;
+ padding: 70px 0;
+ 
+}
+
+.my-name h2{
+  font-size: 30px;
+  color: #C0DE08;
+}
+
+.my-name h1 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.title {
+  font-size: 28px;
+  color: #C0DE08;
+}
+

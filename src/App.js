@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route, Outlet } from 'react-router-dom';
-import AboutMe from './pages/AboutMe';
+import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Tech from './pages/Tech';
 import Resume from './pages/Resume';
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Outlet />
       <Routes>
-        <Route path='/' element={<AboutMe />}/>
+        <Route path='/' element={<Home />}/>
         <Route path='projects' element={<Projects />}/>
         <Route path='tech' element={<Tech />}/>
         <Route path='resume' element={<Resume />}/>

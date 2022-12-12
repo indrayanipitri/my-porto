@@ -1,3 +1,8 @@
 export default function Tech() {
-    return <h1>Hai tech</h1>
+    return <>
+    <section className="section">
+        <h1>Hai skills</h1>
+    </section>
+    
+    </>
 }

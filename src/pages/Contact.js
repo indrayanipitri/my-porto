@@ -1,3 +1,8 @@
 export default function Contact() {
-    return <h1>Hai contact</h1>
+    return <>
+    <section className="section">
+        <h1>Hai contact</h1>
+    </section>
+    
+    </>
 }
