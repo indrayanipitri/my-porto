@@ -2,10 +2,8 @@ import TkitWeb from '../images/tkit-web.png'
 
 export default function Projects() {
     return <>
-   <section className="section">
-        <div className="projects">
+   <section className="section projects">
             <h2 className="title">projects aku.</h2>
-            <div className="container">
                 <div className="flex-column">
                     <div className="flex-row">
                         <figure className='figure'>
@@ -38,9 +36,9 @@ export default function Projects() {
                         </figure>
                     </div>
                 </div>
-            </div>
+           
             
-        </div>
+        
     </section>
     
     </>

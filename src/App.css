@@ -176,10 +176,6 @@
 }
 
 /* Projects */
-.container {
-  text-align: center;
-}
-
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -216,7 +212,6 @@ figcaption {
 
 
 @media screen and (max-width: 1028px) {
-  
   .img-profile img {
     margin: auto;
     width: 250px;
@@ -226,6 +221,24 @@ figcaption {
   .jumbotron .my-name {
     width: 50%;
    }
+
+   .title {
+    text-align: center;
+   }
+
+  .projects img {
+    width: 250px;
+  }
+  
+  .projects img:hover {
+    opacity: .6;
+  }
+  
+  figcaption {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  
 }
 
 @media screen and (max-width: 855px) {
@@ -266,22 +279,28 @@ figcaption {
   .line-2 {
     margin: 0 auto 40px;
   }
-}
 
-@media screen and (max-width: 855px) {
-  .img-profile img {
-    width: 200px;
-    height: 200px;
-  }
-
-  .my-name h2{
-    font-size: 24px;
+  /* Projects */
+  
+  .flex-column {
+    display: block;
   }
   
-  .my-name h1 {
-    font-size: 27px;
-    line-height: 35px;
+  .flex-row {
+    display: block;
+    padding: 0px 0px;
+   }
+
+   .projects img {
+    width: 300px;
+    
   }
+  
+  .figure {
+    padding: 20px 0;
+  }
+
 }
 
-/* About me */
+
+
