@@ -108,6 +108,8 @@
 }
 }
 
+
+
 /* Section */
 .section {
   padding: 5% 10%;
@@ -179,6 +181,8 @@
 .flex-column {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  
 }
 
 .flex-row {
@@ -189,7 +193,8 @@
  }
 
 .figure {
-  flex-grow: 1; 
+  flex-grow: 1;
+  
 }
 
 .projects img {
@@ -204,8 +209,8 @@
 
 figcaption {
   width: 260px;
-  margin: auto;
   line-height: 30px;
+  margin: auto;
 }
 
 
