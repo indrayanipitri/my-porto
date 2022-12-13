@@ -17,9 +17,6 @@ export default function Navbar() {
                 <Link to='/projects' className='project'>
                     <li> Projects </li>
                 </Link>
-                <Link to='/skills' className='tech'>
-                    <li> Skills </li>
-                </Link>
                 <Link to='/resume' className='resume'>
                     <li> Resume </li>
                 </Link>

@@ -15,15 +15,14 @@ export default function Home() {
                 <h2>Frontend Developer.</h2>
                 <h1>Halo!
                 <br/>
-                Aku, Pitri Indrayani.</h1>
+                Aku, <span>Pitri Indrayani.</span></h1>
             </div>
         </div>
     <Line/>
+    </section>
     <About />
     <Line/>
     <Projects />
-    
-    </section>
     
     </>
 }

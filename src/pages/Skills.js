@@ -2,8 +2,9 @@ import Line from "../Line/Line";
 
 export default function Skills() {
     return <>
-    <section className="section skills">
-            <h2 className="title">skills aku saat ini.</h2>
+    <section className="section ">
+        <div className="skills">
+            <h2 className="title">Skills aku saat ini.</h2>
             <div className="container">
                 <div className="flex-row">
                     <h3>html</h3>
@@ -22,6 +23,7 @@ export default function Skills() {
                 </div>
             </div>
             <Line />
+        </div>
     </section>
     
     </>
