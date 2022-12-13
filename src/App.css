@@ -13,7 +13,7 @@
   height: auto;
 
 }
-
+/* ================================================== */
 /* Navbar */
 .nav {
   display: flex;
@@ -58,13 +58,6 @@
 }
 
 @media screen and (max-width: 880px) {
-  /* .logo {
-    display: flex;
-    position: absolute;
-    top: 15px;
-    left: 35px;
-  } */
-
   .nav-links {
     display: none;
   }
@@ -80,39 +73,37 @@
     background-color: #181A20;
     color: #fff;
     height: 100vh;
-    
   }
 
-.about,
-.projects,
-.skills,
-.resume,
-.contact {
-  color: #7BE7FF;
-  text-align: center;
-  padding:  32px;
-  width: 100%;
-  transition: all 0.5 ease-out;
- 
+  .about,
+  .projects,
+  .skills,
+  .resume,
+  .contact {
+    color: #7BE7FF;
+    text-align: center;
+    padding:  32px;
+    width: 100%;
+    transition: all 0.5 ease-out;
+  }
+
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    font-size: 27px;
+    color: white;
+    background-color: #181A20;
+    border: none;
+  }
 }
 
-.mobile-menu {
-  display: block;
-  position: absolute;
-  top: 25px;
-  right: 15px;
-  font-size: 27px;
-  color: white;
-  background-color: #181A20;
-  border: none;
-}
-}
-
-
+/* ======================================================== */
 
 /* Section */
 .section {
-  padding: 5% 10%;
+  padding: 3% 10%;
 }
 
 /* Line */
@@ -131,7 +122,7 @@
 .jumbotron {
   display: flex;
   justify-content: space-around;
-  padding: 30px 0;
+  padding: 40px 0;
 }
 
 .img-profile{
@@ -163,10 +154,9 @@
   line-height: 50px;
 }
 
-
 /* About me */
 .title {
-  font-size: 30px;
+  font-size: 28px;
   color: #C0DE08;
   margin-bottom: 20px;
 }
@@ -178,14 +168,14 @@
 }
 
 /* Projects */
-.flex-column {
+.projects .flex-column {
   display: flex;
   flex-direction: column;
   text-align: center;
   
 }
 
-.flex-row {
+.projects .flex-row {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
@@ -213,10 +203,29 @@ figcaption {
   margin: auto;
 }
 
+/* Skills */
+.skills .container {
+  width: 70%;
+  margin: auto;
+}
 
+.skills h3 {
+  padding: 20px 20px;
+  color: #7BE7FF;
+  font-size: 24px;
+}
 
+.skills .flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills .row-2{
+  justify-content: space-around;
+}
 
 @media screen and (max-width: 1028px) {
+  /* Jumbotron */
   .img-profile img {
     margin: auto;
     width: 250px;
@@ -227,10 +236,11 @@ figcaption {
     width: 50%;
    }
 
-   .title {
+  .title {
     text-align: center;
    }
-
+  
+  /* Projects */
   .projects img {
     width: 250px;
   }
@@ -246,7 +256,9 @@ figcaption {
   
 }
 
+/* Mobile Version */
 @media screen and (max-width: 855px) {
+  /* Jumbotron */
   .jumbotron {
     display: block;
     text-align: center;
@@ -266,15 +278,14 @@ figcaption {
   .jumbotron .my-name {
     width: 100%;
     padding: 40px 0;
-   }
+  }
 
-   .my-name h2{
-    font-size: 27px;
+  .my-name h2{
+  font-size: 27px;
   }
   
   .my-name h1 {
     font-size: 31px;
-    
   }
 
   /* Line */
@@ -286,24 +297,36 @@ figcaption {
   }
 
   /* Projects */
-  
-  .flex-column {
+  .projects .flex-column {
     display: block;
   }
   
-  .flex-row {
+  .projects .flex-row {
     display: block;
     padding: 0px 0px;
    }
 
    .projects img {
     width: 300px;
-    
   }
   
   .figure {
     padding: 20px 0;
   }
+
+  /* Skills */
+.skills .container {
+  width: 100%;
+}
+
+.skills h3 {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.skills .flex-row {
+  justify-content: space-around;
+}
 
 }
 

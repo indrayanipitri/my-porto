@@ -2,6 +2,7 @@ import imgProfile from '../images/pipit.png'
 import Line from '../Line/Line'
 import About from './About'
 import Projects from './Projects'
+import Skills from './Skills'
 
 export default function Home() {
     return <>
@@ -21,6 +22,9 @@ export default function Home() {
     <About />
     <Line/>
     <Projects />
+    <Line />
+    <Skills />
+    <Line />
     </section>
     
     </>
