@@ -14,10 +14,10 @@ export default function Navbar() {
                 <Link to='/' className='about'>
                     <li> Tentang aku </li>
                 </Link>
-                <Link to='/projects' className='projects'>
+                <Link to='/projects' className='project'>
                     <li> Projects </li>
                 </Link>
-                <Link to='/tech' className='skills'>
+                <Link to='/skills' className='tech'>
                     <li> Skills </li>
                 </Link>
                 <Link to='/resume' className='resume'>

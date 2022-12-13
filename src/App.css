@@ -11,7 +11,10 @@
   font-family: 'Nunito Sans', sans-serif;
   color: #fff;
   height: auto;
+}
 
+.skills {
+  height: 80vh;
 }
 /* ================================================== */
 /* Navbar */
@@ -38,8 +41,8 @@
 
 
 .about,
-.projects,
-.skills,
+.project,
+.tech,
 .resume,
 .contact {
   color: white;
@@ -76,8 +79,8 @@
   }
 
   .about,
-  .projects,
-  .skills,
+  .project,
+  .tech,
   .resume,
   .contact {
     color: #7BE7FF;
@@ -103,7 +106,7 @@
 
 /* Section */
 .section {
-  padding: 3% 10%;
+  padding: 3% 10% 0;
 }
 
 /* Line */
@@ -212,7 +215,7 @@ figcaption {
 .skills h3 {
   padding: 20px 20px;
   color: #7BE7FF;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .skills .flex-row {
@@ -222,6 +225,17 @@ figcaption {
 
 .skills .row-2{
   justify-content: space-around;
+}
+
+/* Footer */
+.footer {
+  background-color: #181A20;
+}
+
+.footer p {
+  padding: 15px 0;
+  font-size: 20px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1028px) {
@@ -315,18 +329,21 @@ figcaption {
   }
 
   /* Skills */
-.skills .container {
-  width: 100%;
-}
+  .skills {
+    height: auto;
+  }
+  .skills .container {
+    width: 100%;
+  }
 
-.skills h3 {
-  padding: 10px 20px;
-  font-size: 18px;
-}
+  .skills h3 {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
 
-.skills .flex-row {
-  justify-content: space-around;
-}
+  .skills .flex-row {
+    justify-content: space-around;
+  }
 
 }
 

@@ -1,3 +1,5 @@
+import Line from "../Line/Line";
+
 export default function Skills() {
     return <>
     <section className="section skills">
@@ -19,6 +21,7 @@ export default function Skills() {
                     <h3>saas</h3>
                 </div>
             </div>
+            <Line />
     </section>
     
     </>

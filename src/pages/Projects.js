@@ -1,4 +1,5 @@
 import TkitWeb from '../images/tkit-web.png'
+import Line from '../Line/Line'
 
 export default function Projects() {
     return <>
@@ -36,9 +37,7 @@ export default function Projects() {
                         </figure>
                     </div>
                 </div>
-           
-            
-        
+           <Line />
     </section>
     
     </>

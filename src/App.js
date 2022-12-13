@@ -5,7 +5,8 @@ import Projects from './pages/Projects';
 import Skills from './pages/Skills';
 import Resume from './pages/Resume';
 import Contact from  './pages/Contact';
-import Navbar from './Navbar/Navbar'
+import Navbar from './Navbar/Navbar';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='resume' element={<Resume />}/>
         <Route path='contact' element={<Contact />}/>
       </Routes>
+      <Footer />
     </div>
   );
 }

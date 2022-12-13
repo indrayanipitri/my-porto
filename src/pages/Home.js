@@ -2,14 +2,14 @@ import imgProfile from '../images/pipit.png'
 import Line from '../Line/Line'
 import About from './About'
 import Projects from './Projects'
-import Skills from './Skills'
+
 
 export default function Home() {
     return <>
     <section className="section">
         <div className='jumbotron'>
             <div className="img-profile">
-                <img src={imgProfile} alt="my-photo" />
+                <img src={imgProfile} alt="me" />
             </div>
             <div className='my-name'>
                 <h2>Frontend Developer.</h2>
@@ -22,9 +22,7 @@ export default function Home() {
     <About />
     <Line/>
     <Projects />
-    <Line />
-    <Skills />
-    <Line />
+    
     </section>
     
     </>
