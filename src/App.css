@@ -13,6 +13,10 @@
   height: auto;
 }
 
+.kontak {
+  height: 75vh;
+}
+
 /* ================================================== */
 /* Navbar */
 .nav {
@@ -110,7 +114,8 @@
 .about-me,
 .projects,
 .skills,
-.resume-me {
+.resume-me,
+.kontak {
   padding: 0 10%;
 }
 
@@ -281,10 +286,34 @@ figcaption {
   font-size: 19px;
 }
 
+.resume-me .item-list p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.resume-me .item-list p a:hover {
+  color: #C0DE08;
+}
+
 .line-resume {
   width: 60%;
   border: 1px dashed #C0DE08;
   margin: 50px auto;
+}
+
+/* Kontak */
+.kontak .flex-row {
+  display: flex;
+  padding: 10px 50px;
+}
+
+.kontak img {
+  width: 28px;
+  height: 28px;
+}
+
+.kontak p {
+  padding: 5px 20px;
 }
 
 @media screen and (max-width: 1028px) {

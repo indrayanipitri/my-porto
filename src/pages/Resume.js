@@ -15,7 +15,7 @@ export default function AboutResumeMe() {
                 <p>April – Juni 2018</p>
                 </li>
                 <li  className="item-list"> <h2>Magang di PT Matahari Putra Prima, Tbk</h2>
-                <h3> Admin Fixed AsseT</h3>
+                <h3> Admin Fixed Asset</h3>
                 <p>February – Maret 2012</p>
                 </li>
             </ul>
@@ -42,7 +42,7 @@ export default function AboutResumeMe() {
             <ul className="items">
                 <li className="item-list"> <h2> Belajar Dasar Pemrograman Web </h2>
                 <h3>Dicoding Indonesia</h3>
-                <p>Diterbitkan Jul 2022 Kedaluwarsa Jul 2</p>
+                <p> <a href="https://www.dicoding.com/certificates/ERZRML9R2PYV" target="_blank" rel="noreferrer">Diterbitkan Jul 2022 Kedaluwarsa Jul 2025 </a></p>
                 </li>
                 <li className="item-list"> <h2> Fullstack Website Designer </h2>
                 <h3>BuildWith Angga</h3>
