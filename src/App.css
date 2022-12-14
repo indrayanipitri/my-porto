@@ -19,7 +19,7 @@
 .nav {
   display: flex;
   justify-content: space-around;
-  background-color: #181A20;
+  background-color: #0e1323;
   font-size: 18px;
   height: 75px;
   align-items: center;
@@ -59,6 +59,14 @@
 }
 
 @media screen and (max-width: 880px) {
+  .nav {
+    height: 68px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+  
   .nav-links {
     display: none;
   }
@@ -71,9 +79,13 @@
     top: 75px;
     width: 100%;
     transition: all 0.5 ease-out;
-    background-color: #181A20;
+    background-color: #0e1323;
     color: #fff;
     height: 100vh;
+  }
+
+  .nav-links-mobile a:hover {
+    color: #7BE7FF;
   }
 
   .about,
@@ -81,7 +93,6 @@
   .tech,
   .resume,
   .contact {
-    color: #7BE7FF;
     text-align: center;
     padding:  32px;
     width: 100%;
@@ -91,11 +102,11 @@
   .mobile-menu {
     display: block;
     position: absolute;
-    top: 25px;
-    right: 35px;
+    top: 23px;
+    right: 22px;
     font-size: 27px;
     color: white;
-    background-color: #181A20;
+    background-color: #0e1323;
     border: none;
   }
 }
@@ -143,14 +154,14 @@
 
 .img-profile img {
   width: 300px;
+  height: 300px;;
   border-radius: 50%;
   border: 3px solid #C0DE08;
 }
 
-
 .jumbotron .my-name {
  width: 40%;
- padding: 70px 0;
+ padding: 60px 0 0;
  
 }
 
@@ -162,6 +173,22 @@
 .my-name h1 {
   font-size: 40px;
   line-height: 50px;
+}
+
+.img-github {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+
+.img-github img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.img-github img:hover {
+  border: 3px solid #C0DE08;
 }
 
 
@@ -196,7 +223,6 @@
 
 .figure {
   flex-grow: 1;
-  
 }
 
 .projects img {
@@ -238,7 +264,7 @@ figcaption {
 
 /* Footer */
 .footer {
-  background-color: #181A20;
+  background-color: #0e1323;
 }
 
 .footer p {
@@ -271,13 +297,13 @@ figcaption {
 }
 
 .resume-me .item-list h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 
 .resume-me .item-list h3 {
   color: #7BE7FF;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
 }
 
@@ -334,23 +360,14 @@ figcaption {
   line-height: 27px;
 }
 
-
 .kontak img {
   width: 50px;
   height: 50px;
 }
 
-
 @media screen and (max-width: 1230px) {
   .section {
     padding: 3% 5% 0;
-  }
-  
-  /* about resume contact */
-  .projects,
-  
-  .resume-me {
-    padding: 0 5%;
   }
 }
 
@@ -361,9 +378,12 @@ figcaption {
   
   /* about resume contact */
   
-  .projects,
+  .projects {
+    padding: 20px 0px;
+  }
+
   .resume-me {
-    padding: 40px 0;
+    padding: 20px 80px;
   }
 
   /* Jumbotron */
@@ -394,8 +414,8 @@ figcaption {
     font-size: 16px;
     line-height: 28px;
   }
-  
 }
+
 @media screen and (max-width: 880px) {
   .kontak {
     height: auto;
@@ -447,12 +467,21 @@ figcaption {
     font-size: 31px;
   }
 
+  .img-github {
+    display: none;
+  }
+
   /* Line */
   .line-1 {
     margin: 30px auto 20px;
   }
   .line-2 {
     margin: 0 auto 40px;
+  }
+
+  /* About me */
+  .description {
+    font-size: 15px;
   }
 
   /* Projects */
@@ -490,6 +519,26 @@ figcaption {
     justify-content: space-around;
   }
 
+  /* Resume */
+  .resume-me {
+    padding: 20px 40px;
+  }
+
+  .resume-me .item-list h2 {
+    font-size: 16px;
+  }
+  
+  .resume-me .item-list h3 {
+    font-size: 15px;
+  }
+  
+  .resume-me .item-list p {
+    font-size: 14px;
+  }
+
+  .line-resume {
+    margin: 20px auto;
+  }
 }
 
 
