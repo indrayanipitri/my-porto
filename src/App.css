@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&family=Rubik+Vinyl&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Nunito+Sans:wght@200;400&family=Rubik+Vinyl&display=swap');
 
 * {
   margin: 0;
@@ -8,14 +8,11 @@
 
 .App {
   background-color: #22232d;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #fff;
   height: auto;
 }
 
-.kontak {
-  height: 75vh;
-}
 
 /* ================================================== */
 /* Navbar */
@@ -95,7 +92,7 @@
     display: block;
     position: absolute;
     top: 25px;
-    right: 15px;
+    right: 35px;
     font-size: 27px;
     color: white;
     background-color: #181A20;
@@ -114,8 +111,7 @@
 .about-me,
 .projects,
 .skills,
-.resume-me,
-.kontak {
+.resume-me {
   padding: 0 10%;
 }
 
@@ -135,6 +131,7 @@
 .jumbotron {
   display: flex;
   justify-content: space-around;
+  font-family: 'Nunito Sans', sans-serif;
   padding: 40px 0;
 }
 
@@ -169,8 +166,9 @@
 
 
 /* About me */
+
 .title {
-  font-size: 25px;
+  font-size: 22px;
   color: #C0DE08;
   margin-bottom: 20px;
 }
@@ -273,17 +271,19 @@ figcaption {
 }
 
 .resume-me .item-list h2 {
-  font-size: 21px;
-  
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .resume-me .item-list h3 {
   color: #7BE7FF;
+  font-size: 18px;
   font-weight: 400;
 }
 
 .resume-me .item-list p {
-  font-size: 19px;
+  font-size: 16px;
+  color: #d9d9d9;
 }
 
 .resume-me .item-list p a {
@@ -302,21 +302,71 @@ figcaption {
 }
 
 /* Kontak */
+.kontak {
+  height: 60vh;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.kontak .title {
+  text-align: center;
+}
+
+.kontak hr {
+  margin: auto;
+  width: 80px;
+}
+
+.kontak .container {
+  padding: 70px 0;
+}
+
 .kontak .flex-row {
   display: flex;
-  padding: 10px 50px;
+  justify-content: space-around;
 }
+
+.kontak .card {
+  width: 230px;
+  border: 1px solid #C0DE08;
+  padding: 20px;
+  text-align: center;
+  line-height: 27px;
+}
+
 
 .kontak img {
-  width: 28px;
-  height: 28px;
+  width: 50px;
+  height: 50px;
 }
 
-.kontak p {
-  padding: 5px 20px;
+
+@media screen and (max-width: 1230px) {
+  .section {
+    padding: 3% 5% 0;
+  }
+  
+  /* about resume contact */
+  .projects,
+  
+  .resume-me {
+    padding: 0 5%;
+  }
 }
 
 @media screen and (max-width: 1028px) {
+  .section {
+    padding: 3% 0% 0;
+  }
+  
+  /* about resume contact */
+  
+  .projects,
+  
+  .resume-me {
+    padding: 40px 0;
+  }
+
   /* Jumbotron */
   .img-profile img {
     margin: auto;
