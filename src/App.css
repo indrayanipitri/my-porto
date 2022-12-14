@@ -362,7 +362,6 @@ figcaption {
   /* about resume contact */
   
   .projects,
-  
   .resume-me {
     padding: 40px 0;
   }
@@ -396,6 +395,24 @@ figcaption {
     line-height: 28px;
   }
   
+}
+@media screen and (max-width: 880px) {
+  .kontak {
+    height: auto;
+  }
+
+  .kontak .container {
+    padding: 50px 0 20px;
+  }
+
+  .kontak .flex-row {
+    display: block;
+  }
+
+  .kontak .card {
+    margin: 0 auto 30px;
+    
+  }
 }
 
 /* Mobile Version */
