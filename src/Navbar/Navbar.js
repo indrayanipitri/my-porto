@@ -6,7 +6,9 @@ export default function Navbar() {
     return (
         <>
         <nav className="nav">
+            <Link to='/'>
             <h2 className='logo'>pitri.</h2>
+            </Link>
             <ul className={isMobile ? "nav-links-mobile" : "nav-links" }
             onClick={function() {
                 setIsMobile(false)

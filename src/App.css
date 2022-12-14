@@ -25,6 +25,12 @@
   align-items: center;
 }
 
+nav a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
 .logo {
   font-family: 'Rubik Vinyl', cursive;
   font-size: 33px;
@@ -76,7 +82,7 @@
     position: absolute;
     list-style: none;
     left: 0;
-    top: 75px;
+    top: 68px;
     width: 100%;
     transition: all 0.5 ease-out;
     background-color: #0e1323;
@@ -226,9 +232,10 @@
 }
 
 .projects img {
-  width: 300px;
+  width: 350px;
   border: 3px solid #C0DE08;
   margin: 10px 0;
+  cursor: pointer;
 }
 
 .projects img:hover {
@@ -401,10 +408,7 @@ figcaption {
     text-align: center;
    }
   
-  /* Projects */
-  .projects img {
-    width: 250px;
-  }
+  
   
   .projects img:hover {
     opacity: .6;
@@ -493,10 +497,6 @@ figcaption {
     display: block;
     padding: 0px 0px;
    }
-
-   .projects img {
-    width: 300px;
-  }
   
   .figure {
     padding: 20px 0;
