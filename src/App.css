@@ -191,10 +191,12 @@ nav a {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  transition: transform .5s;
 }
 
 .img-github img:hover {
   border: 3px solid #C0DE08;
+  transform: scale(1.1);
 }
 
 
@@ -242,10 +244,16 @@ nav a {
   opacity: .6;
 }
 
+.title-project {
+  margin-bottom: 5px;
+  color: #7BE7FF;
+}
+
 figcaption {
   width: 260px;
   line-height: 30px;
   margin: auto;
+  color: #999;
 }
 
 /* Skills */
@@ -336,7 +344,7 @@ figcaption {
 
 /* Kontak */
 .kontak {
-  height: 60vh;
+  height: 100vh;
   width: 80%;
   margin: 50px auto;
 }
@@ -423,7 +431,10 @@ figcaption {
 @media screen and (max-width: 880px) {
   .kontak {
     height: auto;
+    margin: 20px auto;
   }
+
+  
 
   .kontak .container {
     padding: 50px 0 20px;
