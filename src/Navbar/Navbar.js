@@ -14,10 +14,7 @@ export default function Navbar() {
                 setIsMobile(false)
             }}>
                 <Link to='/' className='about'>
-                    <li> Tentang aku </li>
-                </Link>
-                <Link to='/projects' className='project'>
-                    <li> Projects </li>
+                    <li> Tentang aku</li>
                 </Link>
                 <Link to='/resume' className='resume'>
                     <li> Resume </li>

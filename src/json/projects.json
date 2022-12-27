@@ -1,0 +1,54 @@
+{
+    "projects" :[
+        {
+            "_id" : "1",
+            "name" : "Website Sekolah TKIT Al - Istiqomah",
+            "caption" : "Reactjs, Bootstrap, CSS.",
+            "imageUrl": "./images/tkit.png",
+            "hrefUrl": "https://tkit.istiqomah.sch.id/"
+        },
+        {
+            "_id" : "2",
+            "name" : "Website Sekolah Istiqomah",
+            "caption" : "Vuejs, Bootstrap, CSS.",
+            "imageUrl": "./images/istiqomah.png",
+            "hrefUrl": "https://istiqomah.sch.id/"
+        },
+        {
+            "_id" : "3",
+            "name" : "Website Sekolah MI Al - Istiqomah",
+            "caption" : "Laravel, Javascript, Bootstrap, CSS",
+            "imageUrl": "./images/mi.png",
+            "hrefUrl": "/"
+        },
+        {
+            "_id" : "4",
+            "name" : "Todo List Pit",
+            "caption" : "Reactjs, CSS.",
+            "imageUrl": "./images/todo.png",
+            "hrefUrl": "https://todo-list-pit.netlify.app/"
+        },
+        {
+            "_id" : "5",
+            "name" : "Slicing Web Staycation",
+            "caption" : "Reactjs, Bootstrap, Scss",
+            "imageUrl": "./images/istiqomah.png",
+            "hrefUrl": "/"
+        },
+        {
+            "_id" : "6",
+            "name" : "Meppsiomo",
+            "caption" : "HTML, CSS, Bootstrap, Javascript",
+            "imageUrl": "./images/meppsimo.png",
+            "hrefUrl": "https://meppsimo.netlify.app/"
+        },
+        {
+            "_id" : "7",
+            "name" : "Gallery Wedding",
+            "caption" : "HTML, CSS, Bootstrap, Javascript",
+            "imageUrl": "./images/wedding.png",
+            "hrefUrl": "https://wedding-gallery.netlify.app/"
+        }
+
+    ] 
+}

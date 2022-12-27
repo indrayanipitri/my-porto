@@ -215,18 +215,19 @@ nav a {
 
 /* Projects */
 .projects .flex-column {
-  display: flex;
   flex-direction: column;
   text-align: center;
-  
+}
+
+.projects .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .projects .flex-row {
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
+  
   padding: 20px 0;
- }
+}
 
 .figure {
   flex-grow: 1;
