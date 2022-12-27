@@ -27,7 +27,9 @@ export default function Hero(props) {
                 <br/>
                 Aku, <span>Pitri Indrayani.</span></h1>
                 </Fade>
+                <Fade delay={500}>
                 <button onClick={showAbout} className="btn-show">Show Me</button>
+                </Fade>
                 <Fade bottom delay={600}>
                 <div className="img-github">
                     <a href="https://github.com/indrayanipitri" target="_blank" rel="noreferrer"><img src={imgGithub} alt="github" /></a>

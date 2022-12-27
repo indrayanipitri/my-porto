@@ -1,8 +1,10 @@
 import Line from "../parts/Line";
+import { Fade } from "react-reveal";
 
 export default function AboutResumeMe() {
     return <>
     <section className="section" >
+        <Fade delay={300}>
         <div className="resume-me">
             <h1 className="title">Pengalaman aku.</h1>
             <ul className="items">
@@ -20,9 +22,11 @@ export default function AboutResumeMe() {
                 </li>
             </ul>
         </div>
+        
 
         <hr className="line-resume"/>
-
+        </Fade>
+        <Fade delay={600}>
         <div className="resume-me">
             <h1 className="title">Pendidikan.</h1>
             <ul className="items">
@@ -36,7 +40,8 @@ export default function AboutResumeMe() {
         </div>
 
         <hr className="line-resume"/>
-
+        </Fade>
+        <Fade delay={200}>
         <div className="resume-me">
             <h1 className="title">Course yang udah aku ikuti :</h1>
             <ul className="items">
@@ -51,6 +56,7 @@ export default function AboutResumeMe() {
             </ul>
         </div>
         <Line />
+        </Fade>
     </section>
     
     </>

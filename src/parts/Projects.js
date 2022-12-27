@@ -12,16 +12,18 @@ export default function Projects(props) {
                         return (
                             
                             <div className="flex-row" key={index}>
+                                <div className="card card-featured">
                                 <Fade bottom delay={300 * index} >
                                     <figure className='figure'>
                                     <a href={item.hrefUrl}
                                     target="_blank" rel="noreferrer">
-                                        <img src={item.imageUrl} alt={item.name} />
+                                        <img src={item.imageUrl} alt={item.name} className="img-cover"/>
                                     </a>
                                     <h3 className='title-project'> {item.name} </h3>
                                     <figcaption> {item.caption}</figcaption>
                                     </figure>
                                 </Fade>
+                                </div>
                             </div>
                         
                         )

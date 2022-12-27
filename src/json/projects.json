@@ -30,7 +30,7 @@
         },
         {
             "_id" : "5",
-            "name" : "Slicing Web Staycation",
+            "name" : "Landing Page Web Staycation",
             "caption" : "Reactjs, Bootstrap, Scss",
             "imageUrl": "./images/istiqomah.png",
             "hrefUrl": "/"
