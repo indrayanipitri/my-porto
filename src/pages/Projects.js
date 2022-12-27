@@ -1,5 +1,4 @@
 import Fade from 'react-reveal'
-import Skills from './Skills'
 
 export default function Projects(props) {
     return (
