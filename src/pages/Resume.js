@@ -1,4 +1,4 @@
-import Line from "../Line/Line";
+import Line from "../parts/Line";
 
 export default function AboutResumeMe() {
     return <>

@@ -1,8 +1,8 @@
 import { Fade } from "react-reveal"
 
-export default function About() {
+export default function About(props) {
     return <>
-    <section className="section">
+    <section className="section" ref={props.refAbout}>
         
         <div className="about-me">
         <div className="container">

@@ -1,5 +1,6 @@
-import Line from "../Line/Line";
+import Line from "./Line";
 import Fade from 'react-reveal'
+
 export default function Skills() {
     return <>
     <section className="section ">

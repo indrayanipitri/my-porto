@@ -1,10 +1,7 @@
 import './App.css';
-import { Routes, Route, Outlet } from 'react-router-dom';
-import Home from './pages/Home';
-import Resume from './pages/Resume';
-import Contact from  './pages/Contact';
-import Navbar from './Navbar/Navbar';
-import Footer from './pages/Footer';
+import { Routes, Route, Outlet} from 'react-router-dom';
+import Navbar from './Navbar/Navbar'
+import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
@@ -12,11 +9,8 @@ function App() {
       <Navbar />
       <Outlet />
       <Routes > 
-        <Route path='/' element={<Home />}/>
-        <Route path='resume' element={<Resume />}/>
-        <Route path='contact' element={<Contact />}/>
+        <Route path='/' element={<LandingPage />}/>
       </Routes>
-      <Footer />
     </div>
   );
 }

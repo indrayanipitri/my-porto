@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
-export default function Navbar() {
+export default function Navbar(props) {
     const [isMobile, setIsMobile] = useState(false);
+
     return (
         <>
         <nav className="nav">
@@ -13,15 +14,15 @@ export default function Navbar() {
             onClick={function() {
                 setIsMobile(false)
             }}>
-                <Link to='/' className='about'>
-                    <li> Tentang aku</li>
-                </Link>
-                <Link to='/resume' className='resume'>
+                <NavLink to='/' className="about"   >
+                    <li> Home </li>
+                </NavLink>
+                <NavLink to='/resume' className="resume">
                     <li> Resume </li>
-                </Link>
-                <Link to='/contact' className='contact'>
-                    <li> Kontak </li>
-                </Link>
+                </NavLink>
+                <NavLink to='/contact' className="contact">
+                    <li > Kontak </li>
+                </NavLink>
             </ul>
             <button className='mobile-menu'
             onClick={function() {
