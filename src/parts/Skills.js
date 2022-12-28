@@ -27,7 +27,7 @@ export default function Skills() {
                 <div className="flex-row ">
                     <h3>bootstrap</h3>
                     <h3>javascript</h3>
-                    <h3>saas</h3>
+                    <h3>scss</h3>
                 </div>
                 </Fade>
             </div>

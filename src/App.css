@@ -21,6 +21,7 @@
   font-size: 18px;
   height: 75px;
   align-items: center;
+  
 }
 
 nav a {
@@ -449,8 +450,6 @@ figcaption {
     text-align: center;
    }
   
-  
-  
   .projects img:hover {
     opacity: .6;
   }
@@ -466,8 +465,6 @@ figcaption {
     height: 800px;
     margin: 20px auto;
   }
-
-  
 
   .kontak .container {
     padding: 50px 0 20px;
@@ -586,5 +583,9 @@ figcaption {
 }
 
 
-
+@media screen and (max-width: 510px) {
+  .resume-me {
+    padding: 20px 15px;
+  }
+}
 

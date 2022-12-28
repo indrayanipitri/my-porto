@@ -5,7 +5,6 @@ import About from "../parts/About";
 import Projects from "../parts/Projects";
 import Project from "../json/projects.json"
 import Skills from "../parts/Skills";
-import Footer from "../parts/Footer";
 
 export default class LandingPage extends Component {
     constructor(props) {
@@ -24,9 +23,6 @@ export default class LandingPage extends Component {
             <Projects data={Project.projects}/>
             <Line />
             <Skills/>
-            <Line />
-            <Footer/>
-            
             </>
         )
     }

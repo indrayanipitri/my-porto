@@ -15,13 +15,6 @@
             "hrefUrl": "https://istiqomah.sch.id/"
         },
         {
-            "_id" : "3",
-            "name" : "Website Sekolah MI Al - Istiqomah",
-            "caption" : "Laravel, Javascript, Bootstrap, CSS",
-            "imageUrl": "./images/mi.png",
-            "hrefUrl": "/"
-        },
-        {
             "_id" : "4",
             "name" : "Todo List Pit",
             "caption" : "Reactjs, CSS.",
@@ -32,12 +25,12 @@
             "_id" : "5",
             "name" : "Landing Page Web Staycation",
             "caption" : "Reactjs, Bootstrap, Scss",
-            "imageUrl": "./images/istiqomah.png",
-            "hrefUrl": "/"
+            "imageUrl": "./images/staycation.png",
+            "hrefUrl": "https://staycation-web-landingpage.netlify.app/"
         },
         {
             "_id" : "6",
-            "name" : "Meppsiomo",
+            "name" : "Meppsimo",
             "caption" : "HTML, CSS, Bootstrap, Javascript",
             "imageUrl": "./images/meppsimo.png",
             "hrefUrl": "https://meppsimo.netlify.app/"
